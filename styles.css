@@ -49,6 +49,7 @@ nav a:last-child {
 nav a:hover {
   color: #f6969c;
   font-weight: bold;
+  text-shadow: 0.4px 0.4px 0.4px whitesmoke;
 }
 
 .mdi-linkedin:before {
@@ -71,6 +72,7 @@ nav a:hover {
 object {
   height: 350px;
   width: 350px;
+  object-fit: contain;
 }
 
 .projtop {
