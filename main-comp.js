@@ -16,7 +16,7 @@ const main = {
   </nav>
 
     <section class="intro">
-      <p>Hello! I'm Nick.  I'm currently a student at the
+      <p>Hello! I'm Nick.  I'm a recent graduate of the
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
         Check out some of my projects and <a href="#!/resume">resumé</a>, and feel free to reach out if
         you're interested in working together.  Thanks for visiting!
