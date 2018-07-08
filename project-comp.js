@@ -36,6 +36,11 @@ template: `
       <p>An app allowing users to manage their to-do list.</p>
       <h5>Made with HTML, CSS and AngularJS.</h5>
 
+    <a href="https://rawgit.com/NicholasDuFour/jq-lab1-p2/master/jq-lab1-p2-index.html">
+      <h3>Table Finder</h3></a>
+      <p>A simple app in which the user can reserve a table at a restaurant.</p>
+      <h5>Made with HTML, CSS and jQuery.</h5>
+
     <a href="https://rawgit.com/NicholasDuFour/js-lab1-p4/master/index-js-lab1-p4.html">
         <h3>Address Book</h3></a>
       <p>A site enabling the user to add and delete contacts with a stylish layout.</p>
