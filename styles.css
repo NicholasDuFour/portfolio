@@ -59,7 +59,7 @@ nav a:hover {
   margin: 0 auto;
   margin-top: 15px;
   width: 50%;
-
+  margin-bottom: 10px;
 }
 
 object {
@@ -113,6 +113,47 @@ object {
   margin-bottom: 25px;
 }
 
+.mob-slideshow, .desk-slideshow {
+  display: flex;
+  justify-content: center;
+}
+
+.proj-img-container, .desk-img-container {
+  border: 1px solid black;
+}
+
+.proj-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+}
+
+.proj-img {
+  height: 100%;
+  width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+}
+
+.prev {
+  display: flex;
+  align-items: center;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.desk-slideshow {
+  display: none;
+}
+
 /*Tablet/Desktop style*/
 
 @media only screen and (min-width:768px) {
@@ -125,6 +166,24 @@ object {
   object {
     height: 820px;
     width: 820px;
+  }
+
+  .mob-slideshow {
+    display: none;
+  }
+
+  .desk-slideshow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desk-img-container {
+    height: auto;
+    width: 75%;
+  }
+
+  .desk-proj-img {
+    width: 100%;
   }
 
 }
