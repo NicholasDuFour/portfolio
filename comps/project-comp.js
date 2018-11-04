@@ -36,7 +36,7 @@ template: `
       <p>An app allowing users to manage their to-do list.</p>
       <h5>Made with HTML, CSS and AngularJS.</h5>
 
-    <a href=" https://nicholasdufour.github.io/jq-lab1-p2/">
+    <a href="https://nicholasdufour.github.io/jq-lab1-p2/">
       <h3>Table Finder</h3></a>
       <p>A simple app in which the user can reserve a table at a restaurant.</p>
       <h5>Made with HTML, CSS and jQuery.</h5>
