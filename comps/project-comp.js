@@ -9,13 +9,13 @@ template: `
   <a href="#!/main">About Me</a>
   <a href="#!/projects">Projects</a>
   <a href="#!/resume">Resumé</a>
-  <a href="https://www.linkedin.com/in/nicholas-dufour" class="mdi mdi-24px mdi-linkedin">LinkedIn</a>
-  <a href="https://github.com/NicholasDuFour" class="mdi mdi-24px mdi-github-circle">GitHub</a>
+  <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>
+  <a href="https://github.com/NicholasDuFour">GitHub</a>
 </nav>
 
 <section class="projectlinks">
 
-    <a href="https://charcard.github.io/FinalProject/">
+    <a href="https://nicholasdufour.github.io/FinalProject/">
       <h3>Blank Canvas (made with team of three)</h3></a>
       <p>An art discovery app using the Harvard Art Museums API.</p>
       <h5>Made with HTML, CSS and AngularJS.</h5>
