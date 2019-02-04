@@ -71,7 +71,7 @@ function PFService() {
     },
     {
       image: "images/tf-desk.png",
-      link: "https://rawgit.com/NicholasDuFour/jq-lab1-p2/master/jq-lab1-p2-index.html"
+      link: "https://nicholasdufour.github.io/todo-lab-p2/"
     }
   ];
 
