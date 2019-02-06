@@ -13,7 +13,7 @@ const resume = {
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
     <section class="resume">
-      <object data="ndresume.pdf" type="application/pdf"></object>
+      <object data="2019ndresume.pdf" type="application/pdf"></object>
     </section>
   `
 
