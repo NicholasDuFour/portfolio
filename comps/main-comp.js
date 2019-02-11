@@ -25,7 +25,7 @@ const main = {
 
     <section class="mob-slideshow">
 
-    <section class="prev" ng-hide="$ctrl.count === 0;">
+    <section class="prev">
       <i class="material-icons md-36 prev" ng-click="$ctrl.goBack();">arrow_back_ios</i>
     </section>
 
@@ -42,8 +42,8 @@ const main = {
     </section>
 
     <section class="desk-slideshow">
-
-    <section class="prev" ng-hide="$ctrl.count === 0;">
+    
+    <section class="prev" >
       <i class="material-icons md-36 prev" ng-click="$ctrl.goBackDesk();">arrow_back_ios</i>
     </section>
 
@@ -60,6 +60,7 @@ const main = {
     </section>
 
     `,
+    //ng-hide="$ctrl.count === 0;"
     controller: ["PFService", function(PFService){
       const vm = this;
       //Images are imported from the service
@@ -78,6 +79,9 @@ const main = {
       vm.goBack = () => {
         vm.count--;
         console.log(vm.count);
+        if (vm.count <= 0 ){
+          vm.count = vm.mobileDisplay.length - 1;
+        }
       }
   // The mobile and desktop slidehows are different lengths so I made functions to handle both cases
       vm.goForwardDesk = () => {
@@ -91,6 +95,9 @@ const main = {
       vm.goBackDesk = () => {
         vm.count--;
         console.log(vm.count);
+        if (vm.count <= 0 ){
+          vm.count = vm.deskDisplay.length - 1;
+        }
       }
     }
   ]
