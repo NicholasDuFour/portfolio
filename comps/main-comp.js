@@ -60,7 +60,6 @@ const main = {
     </section>
 
     `,
-    //ng-hide="$ctrl.count === 0;"
     controller: ["PFService", function(PFService){
       const vm = this;
       //Images are imported from the service
