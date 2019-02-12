@@ -78,7 +78,7 @@ const main = {
       vm.goBack = () => {
         vm.count--;
         console.log(vm.count);
-        if (vm.count <= 0 ){
+        if (vm.count < 0 ){
           vm.count = vm.mobileDisplay.length - 1;
         }
       }
@@ -94,7 +94,7 @@ const main = {
       vm.goBackDesk = () => {
         vm.count--;
         console.log(vm.count);
-        if (vm.count <= 0 ){
+        if (vm.count < 0 ){
           vm.count = vm.deskDisplay.length - 1;
         }
       }
