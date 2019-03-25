@@ -17,7 +17,8 @@ const main = {
 
     <section class="intro">
       <p>Hello! I'm Nick.  I'm a graduate of the
-        Front-End Web Development Bootcamp at Grand Circus in Detroit.
+        Front-End Web Development Bootcamp at Grand Circus in Detroit.  I am currently working in the 
+        analytics field and learning more all the time about code, data and user experience.
         Check out some of my projects and <a href="#!/resume">resumé</a>, and feel free 
         to reach out if you're interested in working together.  Thanks for visiting!
       </p>

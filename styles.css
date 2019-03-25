@@ -144,6 +144,14 @@ object {
   cursor: pointer;
 }
 
+.prev:hover, .next:hover {
+  color:grey;
+}
+
+.prev:active, .next:active {
+  color:black;
+}
+
 .prev {
   display: flex;
   align-items: center;
