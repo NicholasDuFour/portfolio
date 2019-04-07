@@ -16,9 +16,13 @@ const main = {
   </nav>
 
     <section class="intro">
-      <p>Hello! I'm Nick.  I'm a graduate of the
-        Front-End Web Development Bootcamp at Grand Circus in Detroit.  I am currently working in the 
+      <p class="intro-part1">Hello! I'm Nick.  I'm a graduate of the
+        Front-End Web Development Bootcamp at Grand Circus in Detroit.
+      </p>  
+      <p class="intro-part2">  I am currently working in the 
         analytics field and learning more all the time about code, data and user experience.
+      </p>
+      <p class="intro-part3">
         Check out some of my projects and <a href="#!/resume">resumé</a>, and feel free 
         to reach out if you're interested in working together.  Thanks for visiting!
       </p>
@@ -32,7 +36,8 @@ const main = {
 
       <section class="proj-img-container">
         <a href="{{ $ctrl.mobileDisplay[$ctrl.count].link }}">
-          <img class="proj-img" ng-src="{{ $ctrl.mobileDisplay[$ctrl.count].image }}" alt="Screencap of a project I worked on">
+          <img class="proj-img" ng-src="{{ $ctrl.mobileDisplay[$ctrl.count].image }}" 
+          alt="{{ $ctrl.mobileDisplay[$ctrl.count].alt  }}">
         </a>
       </section>
 
@@ -50,7 +55,8 @@ const main = {
 
       <section class="desk-img-container">
         <a href="{{ $ctrl.deskDisplay[$ctrl.count].link }}">
-          <img class="desk-proj-img" ng-src="{{ $ctrl.deskDisplay[$ctrl.count].image }}">
+          <img class="desk-proj-img" ng-src="{{ $ctrl.deskDisplay[$ctrl.count].image }}" 
+          alt="{{ $ctrl.deskDisplay[$ctrl.count].alt  }}">
         </a>
       </section>
 

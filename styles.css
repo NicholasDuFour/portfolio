@@ -62,8 +62,9 @@ nav a:hover {
   justify-content: center;
   margin: 0 auto;
   margin-top: 15px;
-  width: 50%;
+  width: 85%;
   margin-bottom: 10px;
+  flex-direction: column;
 }
 
 object {
@@ -95,7 +96,7 @@ object {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 40px;
+  margin: 8px 12px;
 }
 
 .projectlinks a {
@@ -140,6 +141,14 @@ object {
   width: 100%;
 }
 
+.proj-filter {
+  height: 35px;
+  width: 350px;
+  padding: 4px;
+  outline-style: none;
+  font-size: 15px;
+}
+
 .prev, .next {
   cursor: pointer;
 }
@@ -166,6 +175,7 @@ object {
 .desk-slideshow {
   display: none;
 }
+
 
 /*Tablet/Desktop style*/
 
@@ -199,4 +209,11 @@ object {
     width: 100%;
   }
 
+  .intro {
+    width: 40%;
+  }
+
+  .proj-filter {
+    width: 550px;
+  }
 }
