@@ -2,12 +2,12 @@
 
 const main = {
   template: `
-  <header class="top">
+  <header class="top" role="banner">
     <h1>Nicholas DuFour</h1>
       <h2>Front-End Web Developer</h2>
   </header>
 
-  <nav>
+  <nav role="navigation">
     <a href="#!/main">About Me</a>
     <a href="#!/projects">Projects</a>
     <a href="#!/resume">Resumé</a>
@@ -15,7 +15,7 @@ const main = {
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
 
-    <section class="intro">
+    <section class="intro" role="main">
       <p class="intro-part1">Hello! I'm Nick.  I'm a graduate of the
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
       </p>  
@@ -49,7 +49,7 @@ const main = {
 
     <section class="desk-slideshow">
     
-    <section class="prev" >
+    <section class="prev">
       <i class="material-icons md-36 prev" ng-click="$ctrl.goBackDesk();">arrow_back_ios</i>
     </section>
 
