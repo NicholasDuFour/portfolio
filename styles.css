@@ -21,11 +21,12 @@ h1 {
   background-color: #ef5b5b; /*light coral*/
   color: white;
   padding: 15px;
+  padding-bottom: 0px;
 }
 
 .top h2 {
   margin: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .top, .projtop {
@@ -82,10 +83,6 @@ object {
   background-color: #ef5b5b; /*light coral*/
   color: white;
   padding: 31px;
-}
-
-.projtop h3 {
-  margin: 5px;
 }
 
 .resume {
@@ -148,6 +145,10 @@ object {
   padding: 4px;
   outline-style: none;
   font-size: 15px;
+}
+
+.proj-name {
+  font-size: 18.5px;
 }
 
 .proj-tech {

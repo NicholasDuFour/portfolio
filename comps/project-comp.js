@@ -19,7 +19,7 @@ template: `
 
   <div class="projectlinks" ng-repeat="item in $ctrl.projectList | filter: searchText">
       <a href="{{ item.link }}">
-      <h3>{{ item.name }}</h3></a>
+      <h2 class="proj-name">{{ item.name }}</h2></a>
       <p>{{ item.description }}</p>
       <p class="proj-tech">{{ item.tech }}</p>
   </div>

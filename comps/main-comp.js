@@ -15,6 +15,7 @@ const main = {
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
   
+  <section role="main">
     <section class="intro">
       <p class="intro-part1">Hello! I'm Nick.  I'm a graduate of the
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
@@ -65,8 +66,7 @@ const main = {
       </section>
 
     </section>
-  
-
+  </section>
     `,
     controller: ["PFService", function(PFService){
       const vm = this;
