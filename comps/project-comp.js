@@ -16,7 +16,7 @@ template: `
 <section class="projectlinks" role="main">
 <a name="top"></a>
     <input type="text" class="proj-filter" placeholder="Filter projects by name, technology used, etc." 
-    ng-model="searchText" label="project filter">
+    ng-model="searchText" aria-label="project filter">
 
   <div class="projectlinks" ng-repeat="item in $ctrl.projectList | filter: searchText">
    <a href="{{ item.link }}">
