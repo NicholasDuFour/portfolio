@@ -1,9 +1,9 @@
 "use strict";
 const projects = {
 template: `
-<div class="projtop" name="projtop" role="banner">
+<header class="projtop" name="projtop" role="banner">
   <h1>Projects</h1>
-</div>
+</header>
 
 <nav role="navigation">
   <a href="#!/main">About Me</a>
@@ -14,15 +14,14 @@ template: `
 </nav>
 
 <section class="projectlinks" role="main">
-<a name="top"></a>
     <input type="text" class="proj-filter" placeholder="Filter projects by name, technology used, etc." 
     ng-model="searchText" aria-label="project filter">
 
   <div class="projectlinks" ng-repeat="item in $ctrl.projectList | filter: searchText">
-   <a href="{{ item.link }}">
+      <a href="{{ item.link }}">
       <h3>{{ item.name }}</h3></a>
       <p>{{ item.description }}</p>
-    <h5>{{ item.tech }}</h5>
+      <p class="proj-tech">{{ item.tech }}</p>
   </div>
   
 </section>

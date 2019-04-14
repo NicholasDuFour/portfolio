@@ -1,9 +1,9 @@
 "use strict";
 const resume = {
   template:`
-  <div class="projtop" role="banner">
+  <header class="projtop" role="banner">
     <h1>Resumé</h1>
-  </div>
+  </header>
 
   <nav role="navigation">
     <a href="#!/main">About Me</a>
@@ -13,7 +13,7 @@ const resume = {
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
     <section class="resume" role="main">
-      <object data="ndresume2019.pdf" alt="my resumé" type="application/pdf"></object>
+      <object data="ndresume2019.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
     </section>
   `
 

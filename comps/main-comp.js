@@ -14,8 +14,8 @@ const main = {
     <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
-
-    <section class="intro" role="main">
+  
+    <section class="intro">
       <p class="intro-part1">Hello! I'm Nick.  I'm a graduate of the
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
       </p>  
@@ -65,6 +65,7 @@ const main = {
       </section>
 
     </section>
+  
 
     `,
     controller: ["PFService", function(PFService){
