@@ -23,8 +23,9 @@ h1 {
   padding: 15px;
 }
 
-.top h3 {
+.top h2 {
   margin: 5px;
+  font-size: 18px;
 }
 
 .top, .projtop {
@@ -41,7 +42,7 @@ nav {
 
 nav a {
   margin: 9px;
-  color: #f4f4f4; /*whitesmoke*/
+  color: black;
   text-decoration: none;
   padding-right: 12px;
 }
@@ -51,7 +52,7 @@ nav a:last-child {
 }
 
 nav a:hover {
-  color: #2952a3; /*darker blue*/
+  color: #00006B; /*dark navy*/
   font-weight: bold;
   text-shadow: -0.4px 0 whitesmoke, 0 0.4px whitesmoke, 0.4px 0 whitesmoke, 0 -0.4px whitesmoke;
 }

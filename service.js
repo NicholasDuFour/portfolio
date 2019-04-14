@@ -128,13 +128,13 @@ function PFService() {
     {
       link: "https://nicholasdufour.github.io/contact-cards/",
       name: "Contact Cards",
-      description: "A simple React app allowing users to add or delete contacts.",
+      description: "A React app allowing users to add or delete contacts.",
       tech: "Made with HTML, CSS and ReactJS.",
     },
     {
       link: "https://nicholasdufour.github.io/jq-lab1-p2/",
       name: "Table Finder",
-      description: "A simple app in which the user can reserve a table at a restaurant.",
+      description: "An app in which the user can reserve a table at a restaurant.",
       tech: "Made with HTML, CSS and jQuery.",
     },
     {

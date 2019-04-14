@@ -4,7 +4,7 @@ const main = {
   template: `
   <header class="top">
     <h1>Nicholas DuFour</h1>
-      <h3>Front-End Web Developer</h3>
+      <h2>Front-End Web Developer</h2>
   </header>
 
   <nav>
