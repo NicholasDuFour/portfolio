@@ -104,7 +104,7 @@ object {
 
 .projectlinks a:hover {
   font-weight: bold;
-  color: #53b0d8;
+  color:#4F4F4F;/*dark grey*/
 }
 
 .projectlinks a, p {

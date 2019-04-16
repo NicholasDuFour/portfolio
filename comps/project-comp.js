@@ -6,7 +6,7 @@ template: `
 </header>
 
 <nav role="navigation">
-  <a href="#!/main">About Me</a>
+  <a href="#!/home">About Me</a>
   <a href="#!/projects">Projects</a>
   <a href="#!/resume">Resumé</a>
   <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>

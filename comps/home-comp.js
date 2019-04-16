@@ -1,6 +1,6 @@
 "use strict";
 
-const main = {
+const home = {
   template: `
   <header class="top" role="banner">
     <h1>Nicholas DuFour</h1>
@@ -8,14 +8,14 @@ const main = {
   </header>
 
   <nav role="navigation">
-    <a href="#!/main">About Me</a>
+    <a href="#!/home">About Me</a>
     <a href="#!/projects">Projects</a>
     <a href="#!/resume">Resumé</a>
     <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>
     <a href="https://github.com/NicholasDuFour">GitHub</a>
   </nav>
   
-  <section role="main">
+  <main role="main">
     <section class="intro">
       <p class="intro-part1">Hello! I'm Nick.  I'm a graduate of the
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
@@ -66,7 +66,8 @@ const main = {
       </section>
 
     </section>
-  </section>
+  </main>
+  <footer role="contentinfo"></footer>
     `,
     controller: ["PFService", function(PFService){
       const vm = this;
@@ -112,4 +113,4 @@ const main = {
 
 angular
   .module("pfapp")
-  .component("main", main);
+  .component("home", home);
