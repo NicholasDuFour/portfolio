@@ -7,13 +7,7 @@ const home = {
       <h2>Front-End Web Developer</h2>
   </header>
 
-  <nav role="navigation">
-    <a href="#!/home">About Me</a>
-    <a href="#!/projects">Projects</a>
-    <a href="#!/resume">Resumé</a>
-    <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>
-    <a href="https://github.com/NicholasDuFour">GitHub</a>
-  </nav>
+  <navbar></navbar>
   
   <main role="main">
     <section class="intro">
@@ -24,8 +18,8 @@ const home = {
         analytics field and learning more all the time about code, data and user experience.
       </p>
       <p class="intro-part3">
-        Check out some of my projects and <a href="#!/resume">resumé</a>, and feel free 
-        to reach out if you're interested in working together.  Thanks for visiting!
+        Check out some of my <a href="#!/projects">projects</a> and <a href="#!/resume">resumé</a>, 
+        and feel free to reach out if you're interested in working together.  Thanks for visiting!
       </p>
     </section>
 
