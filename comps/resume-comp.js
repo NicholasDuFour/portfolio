@@ -12,6 +12,10 @@ const resume = {
       <object data="docs/ndresume2019.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
     </section>
   </main>
+
+  <footer role="contentinfo">
+    <p>created by Nicholas DuFour, 2018-2019.</p>
+  </footer>
   `
 
 }

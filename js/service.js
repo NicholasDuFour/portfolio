@@ -3,36 +3,43 @@
 function PFService() {
   const mobileImages = [
     {
+      name: "Blank Canvas (made with team of three)",
       image: "images/jpegs/bc-mob1.jpg",
       link: "https://nicholasdufour.github.io/FinalProject/",
       alt: "A shot from behind of a man staring at a painting in a museum",
     },
     {
+      name: "Blank Canvas (made with team of three)",
       image: "images/jpegs/bc-mob2.jpg",
       link: "https://nicholasdufour.github.io/FinalProject/",
       alt: "A silver jewelry piece with info underneath",
     },
     {
+      name: "Blank Canvas (made with team of three)",
       image: "images/jpegs/bc-mob3.jpg",
       link: "https://nicholasdufour.github.io/FinalProject/",
       alt: "A blue and white piece of jewelry with info underneath",
     },
     {
+      name: "'Wich Hunt (made with team of three)",
       image: "images/jpegs/wh-mob1.jpg",
       link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
       alt: "A witch on a broom with a header and small cauldron",
     },
     {
+      name: "'Wich Hunt (made with team of three)",
       image: "images/jpegs/wh-mob2.jpg",
       link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
       alt: "A burger with description and 'Add' button underneath",
     },
     {
+      name: "'Wich Hunt (made with team of three)",
       image: "images/jpegs/wh-mob3.jpg",
       link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
       alt: "A popup box listing an example user's order info and total bill",
     },
     {
+      name: "To Do App",
       image: "images/jpegs/todo-mob1.jpg",
       link: "https://nicholasdufour.github.io/todo-lab-p2/",
       alt: "A list of tasks such as 'Get groceries' with some tasks crossed out",
@@ -41,53 +48,33 @@ function PFService() {
 
   const deskImages = [
     {
+      name: "Blank Canvas (made with team of three)",
       image: "images/jpegs/bc-desk1.jpg",
       link: "https://nicholasdufour.github.io/FinalProject/",
       alt: "A shot from behind of a man staring at a painting in a museum"
     },
     {
-      image: "images/jpegs/bc-desk2.jpg",
-      link: "https://nicholasdufour.github.io/FinalProject/",
-      alt: "A popup box with a painting and information about the piece",
-    },
-    {
+      name: "'Wich Hunt (made with team of three)",
       image: "images/jpegs/wh-desk1.jpg",
       link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
       alt: "A header reading ' 'Wich Hunt' above 3 slices of bread with toppings",
     },
     {
-      image: "images/jpegs/wh-desk2.jpg",
-      link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
-      alt: "2 sandwich items with images, descriptions and prices",
-    },
-    {
-      image: "images/jpegs/wh-desk3.jpg",
-      link: "https://nicholasdufour.github.io/Midterm-WichHunt/",
-      alt: "A popup box listing an example user's order info and total bill",
-    },
-    {
+      name: "Flick Finder (made with team of two)",
       image: "images/jpegs/ff-desk1.jpg",
       link: "https://nicholasdufour.github.io/angularproject/",
       alt: "Three images from popular movies plus a search bar and link to a user's watchlist",
     },
     {
-      image: "images/jpegs/ff-desk2.jpg",
-      link: "https://nicholasdufour.github.io/angularproject/",
-      alt: "A grid of boxes with movie titles, posters and more information",
-    },
-    {
-      image: "images/jpegs/ff-desk3.jpg",
-      link: "https://nicholasdufour.github.io/angularproject/",
-      alt: "A popup box containing detailed information about a movie title",
-    },
-    {
+      name: "To-Do App",
       image: "images/jpegs/todo-desk.jpg",
       link: "https://nicholasdufour.github.io/todo-lab-p2/",
       alt: "A list of tasks such as 'Get groceries' with some tasks crossed out",
     },
     {
+      name: "Table Finder",
       image: "images/jpegs/tf-desk.jpg",
-      link: "https://nicholasdufour.github.io/todo-lab-p2/",
+      link: "https://nicholasdufour.github.io/jq-lab1-p2/",
       alt: "A grid of 9 numbered circles representing restaurant tables",
     }
   ];
@@ -140,7 +127,7 @@ function PFService() {
     {
       link: "https://nicholasdufour.github.io/api-lab/",
       name: "Simple Reddit",
-      description: "Project using the Reddit API to retrieve & display the ten most popular posts on the 'aww' subReddit",
+      description: "Project using the Reddit API to retrieve & display the ten most popular posts on the 'aww' subReddit.",
       tech: "Made with HTML, CSS and jQuery.",
     },
     {

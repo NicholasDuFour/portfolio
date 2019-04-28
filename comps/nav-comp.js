@@ -3,7 +3,7 @@
 const navbar = {
     template: `  
     <nav role="navigation">
-      <a href="#!/home">About Me</a>
+      <a href="#!/home">Home</a>
       <a href="#!/projects">Projects</a>
       <a href="#!/resume">Resumé</a>
       <a href="https://www.linkedin.com/in/nicholas-dufour">LinkedIn</a>

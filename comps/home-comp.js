@@ -2,7 +2,7 @@
 
 const home = {
   template: `
-  <header class="top" role="banner">
+  <header class="top" id="top" role="banner">
     <h1>Nicholas DuFour</h1>
       <h2>Front-End Web Developer</h2>
   </header>
@@ -42,26 +42,23 @@ const home = {
 
     </section>
 
-    <section class="desk-slideshow">
-    
-    <section class="prev">
-      <i class="material-icons md-36 prev" ng-click="$ctrl.goBackDesk();">arrow_back_ios</i>
-    </section>
+    <section class="desk-tiles">
 
-      <section class="desk-img-container">
-        <a href="{{ $ctrl.deskDisplay[$ctrl.count].link }}">
-          <img class="desk-proj-img" ng-src="{{ $ctrl.deskDisplay[$ctrl.count].image }}" 
-          alt="{{ $ctrl.deskDisplay[$ctrl.count].alt  }}">
+      <section class="desk-img-container" ng-repeat="item in $ctrl.deskDisplay">
+        <a href="{{ item.link }}">
+          <img class="desk-proj-img" ng-src="{{ item.image }}" 
+          alt="{{ item.alt  }}">
+          <div class="overlay">
+           <div class="overlay-text">{{item.name}}</div>
+          </div>
         </a>
-      </section>
-
-      <section class="next">
-        <i class="material-icons md-36 next" ng-click="$ctrl.goForwardDesk();">arrow_forward_ios</i>
       </section>
 
     </section>
   </main>
-  <footer role="contentinfo"></footer>
+  <footer role="contentinfo">
+   <p>created by Nicholas DuFour, 2018-2019.</p>
+  </footer>
     `,
     controller: ["PFService", function(PFService){
       const vm = this;
@@ -83,22 +80,6 @@ const home = {
         console.log(vm.count);
         if (vm.count < 0 ){
           vm.count = vm.mobileDisplay.length - 1;
-        }
-      }
-  // The mobile and desktop slidehows are different lengths so I made functions to handle both cases
-      vm.goForwardDesk = () => {
-        vm.count++;
-        console.log(vm.count);
-        if (vm.count > vm.deskDisplay.length - 1) {
-          vm.count = 0;
-          console.log("reset");
-        }
-      }
-      vm.goBackDesk = () => {
-        vm.count--;
-        console.log(vm.count);
-        if (vm.count < 0 ){
-          vm.count = vm.deskDisplay.length - 1;
         }
       }
     }

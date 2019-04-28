@@ -6,6 +6,7 @@ template: `
 </header>
 
 <navbar></navbar>
+
 <main role="main">
   <section class="proj-intro">
     <p>Here are some of my favorite or notable projects.  For more, check out my 
@@ -24,6 +25,10 @@ template: `
     </div>
   </section>
 </main>
+
+<footer role="contentinfo">
+  <p>created by Nicholas DuFour, 2018-2019.</p>
+</footer> 
 `,
 controller: ["PFService", function(PFService) {
   const vm = this;
