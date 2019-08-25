@@ -15,7 +15,7 @@ const home = {
         Front-End Web Development Bootcamp at Grand Circus in Detroit.
       </p>  
       <p class="intro-part2">  I am currently working in the 
-        analytics field and learning more all the time about code, data and user experience.
+        analytics field and continuing my quest to learn more about code, data and user experience.
       </p>
       <p class="intro-part3">
         Check out some of my <a href="#!/projects">projects</a> and <a href="#!/resume">resumé</a>, 

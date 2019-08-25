@@ -135,7 +135,7 @@ nav > a:hover:before {
   color:#4F4F4F;/*dark grey*/
 }
 
-.proj-links a, p {
+.proj-links a,.proj-links p, .intro p {
   margin: 8px 2px;
 }
 
@@ -228,9 +228,16 @@ object {
 /* Footer Styles */
 
 footer {
-  display: none;
+  display: none; 
+  /* ^-- having some issues with the footer...I'll fix this later */
+  /* position: fixed;
+  left: 0;
+  bottom: 0; */
   text-align: center;
   border-top: 1px solid grey;
+  width: 100%;
+  background-color:#f4f4f4;/*whitesmoke*/
+  margin-top: 4px;
 }
 
 /* Tablet Styles */

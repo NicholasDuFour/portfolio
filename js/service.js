@@ -70,12 +70,6 @@ function PFService() {
       image: "images/jpegs/todo-desk.jpg",
       link: "https://nicholasdufour.github.io/todo-lab-p2/",
       alt: "A list of tasks such as 'Get groceries' with some tasks crossed out",
-    },
-    {
-      name: "Table Finder",
-      image: "images/jpegs/tf-desk.jpg",
-      link: "https://nicholasdufour.github.io/jq-lab1-p2/",
-      alt: "A grid of 9 numbered circles representing restaurant tables",
     }
   ];
 
@@ -117,26 +111,7 @@ function PFService() {
       name: "Contact Cards",
       description: "A React app allowing users to add or delete contacts.",
       tech: "Made with HTML, CSS and ReactJS.",
-    },
-    {
-      link: "https://nicholasdufour.github.io/jq-lab1-p2/",
-      name: "Table Finder",
-      description: "An app in which the user can reserve a table at a restaurant.",
-      tech: "Made with HTML, CSS and jQuery.",
-    },
-    {
-      link: "https://nicholasdufour.github.io/api-lab/",
-      name: "Simple Reddit",
-      description: "Project using the Reddit API to retrieve & display the ten most popular posts on the 'aww' subReddit.",
-      tech: "Made with HTML, CSS and jQuery.",
-    },
-    {
-      link: "https://nicholasdufour.github.io/js-lab1-p4/",
-      name: "Address Book",
-      description: "A site enabling the user to add and delete contacts with a stylish layout.",
-      tech: "Made with HTML, CSS and JavaScript.",
     }
-
   ];
 
   const returnProjectList = () =>{
