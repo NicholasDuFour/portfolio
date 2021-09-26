@@ -105,12 +105,6 @@ function PFService() {
       name: "To-Do App",
       description: "An app allowing users to manage their to-do list.",
       tech: "Made with HTML, CSS and AngularJS.",
-    },
-    {
-      link: "https://nicholasdufour.github.io/contact-cards/",
-      name: "Contact Cards",
-      description: "A React app allowing users to add or delete contacts.",
-      tech: "Made with HTML, CSS and ReactJS.",
     }
   ];
 

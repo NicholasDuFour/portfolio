@@ -56,9 +56,6 @@ const home = {
 
     </section>
   </main>
-  <footer role="contentinfo">
-   <p>created by Nicholas DuFour, 2018-2019.</p>
-  </footer>
     `,
     controller: ["PFService", function(PFService){
       const vm = this;

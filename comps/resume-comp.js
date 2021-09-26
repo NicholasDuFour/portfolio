@@ -9,13 +9,9 @@ const resume = {
   <navbar></navbar>
   <main role="main">
     <section class="resume">
-      <object data="docs/ndresume2019.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
+      <object data="docs/(2021-09-26)_ND_Resume.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
     </section>
   </main>
-
-  <footer role="contentinfo">
-    <p>created by Nicholas DuFour, 2018-2019.</p>
-  </footer>
   `
 
 }

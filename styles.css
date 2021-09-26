@@ -158,14 +158,6 @@ nav > a:hover:before {
   width: 100%;
 }
 
-.proj-filter {
-  height: 35px;
-  width: 350px;
-  padding: 4px;
-  outline-style: none;
-  font-size: 15px;
-}
-
 .proj-name {
   font-size: 18.5px;
 }
@@ -223,21 +215,6 @@ object {
   height: 350px;
   width: 350px;
   object-fit: contain;
-}
-
-/* Footer Styles */
-
-footer {
-  display: none; 
-  /* ^-- having some issues with the footer...I'll fix this later */
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
-  text-align: center;
-  border-top: 1px solid grey;
-  width: 100%;
-  background-color:#f4f4f4;/*whitesmoke*/
-  margin-top: 4px;
 }
 
 /* Tablet Styles */

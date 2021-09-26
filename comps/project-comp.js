@@ -14,10 +14,8 @@ template: `
   </section>
 
   <section class="proj-links">
-      <input type="text" class="proj-filter" placeholder="Filter projects by name, technology used, etc." 
-      ng-model="searchText" aria-label="project filter">
-
-    <div class="proj-links" ng-repeat="item in $ctrl.projectList | filter: searchText">
+      
+    <div class="proj-links" ng-repeat="item in $ctrl.projectList">
         <a href="{{ item.link }}">
         <h2 class="proj-name">{{ item.name }}</h2></a>
         <p>{{ item.description }}</p>
@@ -25,10 +23,6 @@ template: `
     </div>
   </section>
 </main>
-
-<footer role="contentinfo">
-  <p>created by Nicholas DuFour, 2018-2019.</p>
-</footer> 
 `,
 controller: ["PFService", function(PFService) {
   const vm = this;
