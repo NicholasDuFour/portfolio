@@ -9,7 +9,7 @@ const resume = {
   <navbar></navbar>
   <main role="main">
     <section class="resume">
-      <object data="docs/(2021-09-26)_ND_Resume.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
+      <object data="docs/(2022-05-17)_Nicholas_DuFour_Resume.pdf" alt="my resumé" aria-label="my resumé" type="application/pdf"></object>
     </section>
   </main>
   `
